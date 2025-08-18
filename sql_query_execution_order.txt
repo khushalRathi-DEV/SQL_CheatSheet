@@ -1,0 +1,11 @@
+| Step | Clause     | What It Does                                                |
+| ---- | ---------- | ----------------------------------------------------------- |
+| 1    | `FROM`     | Finds the tables involved, applies joins                    |
+| 2    | `ON`       | Applies the join condition                                  |
+| 3    | `JOIN`     | Joins the rows from both tables based on the `ON` condition |
+| 4    | `WHERE`    | Filters rows **after** joining                              |
+| 5    | `GROUP BY` | Groups rows if specified                                    |
+| 6    | `HAVING`   | Filters grouped rows                                        |
+| 7    | `SELECT`   | Picks which columns to show from the joined/filtered data   |
+| 8    | `ORDER BY` | Orders the final result                                     |
+| 9    | `LIMIT`    | Limits the number of rows returned                          |
